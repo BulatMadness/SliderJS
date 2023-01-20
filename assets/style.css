@@ -1,0 +1,142 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+li{
+    list-style: none;
+}
+@font-face{
+    font-family: "Raleway";
+    src: url('./fonts/Raleway-Medium.ttf');
+}
+.header{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.header__inner{
+    padding: 54px 0 0 230px;
+}
+.header__wrap{
+    display: flex;
+    align-items: center;
+}
+.header__logo{
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+.header__logo__img{
+}
+.header__logo__txt{
+    padding-left: 15px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #000000;
+}
+.header__info{
+}
+.header__info__ul{
+    display: flex;
+    align-items: center;
+    padding-left: 101px;
+}
+.header__info__li{
+    padding-left: 45px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #6E9C9F;
+}
+.header__phone{ 
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 170px;
+}
+.header__phone__txt{
+    padding-left: 10px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+.header__can{
+    padding-left: 67px;
+}
+.swiper {
+    width: 600px;
+    height: 700px;
+}
+.section{}
+.swiper{}
+.swiper-wrapper{
+
+}
+.spiwer-slide{}
+.slide{
+    margin-top: 70px;
+}
+.slides__title{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 110%;
+   letter-spacing: 0.02em;
+    color: #000000;
+    margin-bottom: 40px;
+}
+.slides__text{}
+.slides__undertext{
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-bottom: 100px;
+}
+.btn{
+    padding: 22px;
+    border: 0;
+    border-radius: 10px;
+    background: #6E9C9F;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 138.9%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF
+}
+.img{
+    height: 500px;
+    position: absolute;
+    top: 150px;
+    right: 200px;
+}
+.img2{
+    position: absolute;
+    top: 250px;
+    right: 110px;
+}
